@@ -1,0 +1,18 @@
+[nfs]
+10.0.3.7 ansible_user=ekwy ansible_password=TekLOS323232
+
+[webservers]
+10.0.3.11 ansible_user=ekwy ansible_password=TekLOS323232
+10.0.3.12 ansible_user=ekwy ansible_password=TekLOS323232
+
+
+[db]
+10.0.3.9 ansible_user=ekwy ansible_password=TekLOS323232
+
+[jenkins]
+10.0.3.17 ansible_user=ekwy ansible_password=TekLOS323232
+
+[lb]
+10.0.3.13 ansible_user=ekwy ansible_password=TekLOS323232
+10.0.3.19 ansible_user=ekwy ansible_password=TekLOS323232
+

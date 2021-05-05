@@ -1,0 +1,8 @@
+---
+- name: Setup Let's Encrypt for Debian
+  hosts: "{{ hostlist }}"
+
+  roles:
+     - letsencrypt
+  become: true
+

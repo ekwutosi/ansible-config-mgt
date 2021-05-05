@@ -16,3 +16,16 @@
 10.0.3.13 ansible_user=ekwy ansible_password=TekLOS323232
 10.0.3.19 ansible_user=ekwy ansible_password=TekLOS323232
 
+[webserver-ansible-old]
+10.0.3.22 ansible_user=ekwy ansible_password=TekLOS323232
+
+[webserver-ansible]
+10.0.3.23 ansible_user=ekwy ansible_password=TekLOS323232
+10.0.3.26 ansible_user=ekwy ansible_password=TekLOS323232
+10.0.3.24 ansible_user=ekwy ansible_password=TekLOS323232
+
+[lb-ansible]
+10.0.3.27 ansible_user=ekwy ansible_password=TekLOS323232
+
+[db-ansible]
+10.0.3.25 ansible_user=ekwy ansible_password=TekLOS323232

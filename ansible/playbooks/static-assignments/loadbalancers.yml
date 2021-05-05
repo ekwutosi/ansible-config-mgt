@@ -1,0 +1,16 @@
+---
+- name: set up LB
+  hosts: "{{ hostlist }}"
+
+  tasks:
+    - name: Update server
+      package:
+        name: '*'
+        state: latest
+        only_upgrade: yes
+
+  roles:
+     - { role: nginx, when: enable_nginx_lb and load_balancer_is_required }
+#   - { role: apache, when: enable_apache_lb and load_balancer_is_required }
+  become: true
+

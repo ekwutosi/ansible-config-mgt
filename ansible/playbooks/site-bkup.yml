@@ -1,0 +1,4 @@
+---
+- name: Install Git
+  import_playbook: ../static-assignments/common.yml hostlist=webserver-ansible
+

@@ -1,0 +1,7 @@
+---
+# defaults file for letsencrypt
+certbot_site_name: ekwy.net
+certbot_package: "python3-certbot-nginx"
+certbot_plugin: "nginx"
+certbot_mail_address: ekwutosi33@gmail.com
+
